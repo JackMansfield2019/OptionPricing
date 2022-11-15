@@ -33,48 +33,47 @@ minimum price over [0, T].
 In an effort to compare and contrast the each of the three models, here are the plots of representative stock price paths for S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2 using ∆t = 0.1, 0.01, 0.0001.
 
 Binomial mode I:
-![alt text](https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_1_1.JPG?row=true)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_1_1.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_1_2.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_1_3.JPG?row=true" width="300" height="300">
 
 Binomial mode II:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_2_1.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_2_2.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_2_3.JPG?row=true" width="300" height="300">
 
 Continuous mode:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/continuous_1.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/continuous_2.JPG?row=true" width="300" height="300">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/continuous_3.JPG?row=true" width="300" height="300">
 
 For each of the Stock pice path models above, and each of the three time discretizations, ∆t = 0.1, 0.01, 0.0001 the program computes the price for each of the following options using Monte carlo simulation with 5000 samples (S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2):
 
-(a) C(1, 1, 2) and compared with the analytic formula.
+(a) C(1, 1, 2) and compared with the analytic formula:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/European_Call.JPG?row=true" width="400">
 
-(b) B(1, 1, 0.95, 2)
+(b) B(1, 1, 0.95, 2):
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/Barrier.JPG?row=true" width="400" >
 
 (c) A(1, 2), for three possible definitions of “average”: the harmonic, arithmetic,
-and geometric means. Explain the relative ordering of these prices.
+and geometric means. Explain the relative ordering of these prices:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/Asian_Option.JPG?row=true" width="400" >
 
-(d) M(1, 2).
+(d) M(1, 2):
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/Min_Strike_Option.JPG?row=true" width="400" >
 
 ## Usage
 
