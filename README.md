@@ -33,6 +33,7 @@ minimum price over [0, T].
 In an effort to compare and contrast the each of the three models, here are the plots of representative stock price paths for S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2 using ∆t = 0.1, 0.01, 0.0001.
 
 Binomial mode I:
+![alt text](https://github.com/JackMansfield2019/OptionPricing/blob/main/jpgs/binomial_1_1.JPG?row=true)
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
