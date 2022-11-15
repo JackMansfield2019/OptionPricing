@@ -1,4 +1,8 @@
-# Option Pricing
+# Monte Carlo and Binomial Simulations for Option Pricing
+Program that compares 3 implementations of the Binomial option pricing model, and then uses a Monte carlo simulation to price European, Asian, Barrier, and Minimum Strike call options.
+
+Program that compares and constrasts Stock pice path models
+
 Program to price European, Asian, Barrier, and minimum strike call options, Using both Binomial pricing and monte Carlo pricing options
 
 ## Program Overview 
@@ -35,21 +39,27 @@ In an effort to compare and contrast the each of the three models, here are the 
 Binomial mode I:
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 Binomial mode II:
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 Continuous mode:
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-For each of the Stock pice path models above,and each of the three time discretizations, ∆t = 0.1, 0.01, 0.0001 the program computes the price for each of the following options using Monte carlo with 5000 samples (S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2):
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+For each of the Stock pice path models above, and each of the three time discretizations, ∆t = 0.1, 0.01, 0.0001 the program computes the price for each of the following options using Monte carlo simulation with 5000 samples (S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2):
 
 (a) C(1, 1, 2) and compared with the analytic formula.\
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
