@@ -53,6 +53,7 @@ Binomial mode II:
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 Continuous mode:
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
@@ -61,17 +62,21 @@ Continuous mode:
 
 For each of the Stock pice path models above, and each of the three time discretizations, ∆t = 0.1, 0.01, 0.0001 the program computes the price for each of the following options using Monte carlo simulation with 5000 samples (S0 = 1, µ = 0.07, r = 0.03, σ = 0.2, T = 2):
 
-(a) C(1, 1, 2) and compared with the analytic formula.\
+(a) C(1, 1, 2) and compared with the analytic formula.
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 (b) B(1, 1, 0.95, 2)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 (c) A(1, 2), for three possible definitions of “average”: the harmonic, arithmetic,
 and geometric means. Explain the relative ordering of these prices.
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 (d) M(1, 2).
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## Usage
