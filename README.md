@@ -1,5 +1,5 @@
 # Monte Carlo and Binomial Simulations for Option Pricing
-Program that compares 3 implementations of the Binomial option pricing model, and then uses a Monte carlo simulation to price European, Asian, Barrier, and Minimum Strike call options.
+Program to compare 3 implementations of the Binomial option pricing model, and then uses a Monte carlo simulation to price European, Asian, Barrier, and Minimum Strike call options.
 
 ## Program Overview 
 This program that takes as input µ, r, σ, S0, T, ∆t and simulates the stock price from
